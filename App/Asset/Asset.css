@@ -1,0 +1,119 @@
+.asset-logo-sidebar img {
+    width: 80px !important;
+}
+.asset-sidebar-menu a {
+    color: #18113C !important;
+    font-size: 15px !important;
+}
+.asset-sidebar-menu i {
+    color: #18113C !important;
+    font-size: 10px !important;
+}
+.asset-sidebar-module {
+    color: #74708A !important;
+    font-size: 11px !important;
+}
+.asset-input-form {
+    border-radius: 3px !important;
+}
+
+.accordion-button {
+    position: relative;
+    padding-left: 40px; /* Espaço para o ícone */
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #FFF5F0;
+}
+
+.accordion-button .accordion-icon {
+    position: absolute;
+    left: 10px; /* Posição do ícone */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #E98A01;
+}
+
+.accordion-body {
+    padding: 10px;
+}
+
+.card-icon {
+    font-size: 18px; 
+    color: #E98A01;
+}
+
+.option-container {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 3px;
+    transition: background-color 0.3s ease, border-left 0.3s ease;
+ }
+ .highlight {
+    background-color: #FFF5F0;
+ }
+ .highlight i,
+ .highlight span {
+    color: #E98A01;
+ }
+ .option-container i {
+    font-size: 23px;
+    padding: 10px;
+ }
+ .option-container span {
+    display: block;
+    font-size: 12px;
+ }
+ .option-container:hover {
+    background-color: #FFF5F0;
+ }
+ .highlight:hover {
+    border-left-color: #FFF5F0;
+ }
+
+
+
+
+
+
+ .card-hover-shadow {
+    transition: box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    width: 340px; height: 70px;
+}
+
+.card-hover-shadow:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFF5F0;
+}
+
+.card-hover-shadow:hover .nav-icon,
+.card-hover-shadow:hover .fa-chevron-right {
+    color: #E98A01;
+}
+
+.nav-icon {
+    font-size: 25px;
+    color: #E98A01;
+    transition: color 0.3s ease;
+}
+
+.card-body {
+    padding: 8px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card span {
+    font-size: 13px;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
